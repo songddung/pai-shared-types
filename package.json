@@ -1,17 +1,21 @@
 {
   "name": "pai-shared-types",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Shared TypeScript types and DTOs for PAI MSA services",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "echo \"No tests for shared types\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/songddung/pai-shared-types.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript", "shared", "dto", "msa", "pai"],
+  "author": "songhyunkwang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/songddung/pai-shared-types/issues"
