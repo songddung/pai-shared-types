@@ -1,6 +1,6 @@
 {
   "name": "pai-shared-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared TypeScript types and DTOs for PAI MSA services",
   "type": "module",
   "main": "./dist/index.js",
