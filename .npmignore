@@ -1,0 +1,6 @@
+src/
+node_modules/
+tsconfig.tsbuildinfo
+.gitignore
+.DS_Store
+.env

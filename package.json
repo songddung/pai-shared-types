@@ -5,23 +5,36 @@
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build",
     "test": "echo \"No tests for shared types\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/songddung/pai-shared-types.git"
   },
-  "keywords": ["typescript", "shared", "dto", "msa", "pai"],
-  "author": "songhyunkwang",
-  "license": "ISC",
+  "keywords": [
+    "typescript",
+    "shared",
+    "dto",
+    "msa",
+    "pai"
+  ],
+  "author": "Song Hyunkwang",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/songddung/pai-shared-types/issues"
   },
   "homepage": "https://github.com/songddung/pai-shared-types#readme",
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

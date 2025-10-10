@@ -1,18 +1,21 @@
 {
   "compilerOptions": {
-    /* === 기본 설정 === */
+    /* === 공통 모듈 설정 === */
     "target": "ES2022",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "verbatimModuleSyntax": true,
-    "declaration": true,
+    "module": "ESNext", // ✅ 브라우저 + Node 호환
+    "moduleResolution": "Bundler", // ✅ 프론트엔드 번들러 호환성 (Vite, Next.js 등)
+    "declaration": true, // ✅ .d.ts 타입 파일 생성
+    "declarationMap": true,
+    "sourceMap": true,
     "strict": true,
-    "skipLibCheck": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
+    "verbatimModuleSyntax": false, // ✅ ← 중요! (확장자 문제 해결)
     /* === 폴더 구조 === */
     "rootDir": "src",
     "outDir": "dist",
+    /* === 경로 alias === */
     "baseUrl": "src",
     "paths": {
       "@dto/*": [
@@ -22,7 +25,7 @@
         "types/*"
       ]
     },
-    /* === 품질 관련 === */
+    /* === 타입 안정성 === */
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true
   },
