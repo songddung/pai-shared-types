@@ -1,5 +1,5 @@
 // === DTOs ===
-export * from "./dto/user/index";
+export * from "./dto/user";
 // export * from "./dto/media/index";
 // export * from "./dto/conversation/index";
 // export * from "./dto/quiz/index";
