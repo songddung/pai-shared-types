@@ -8,6 +8,7 @@
 .github/instructions/nx.instructions.md
 node_modules
 .env
+/dist
 
 # SSL certificates and keys
 letsencrypt/
