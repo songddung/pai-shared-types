@@ -1,4 +1,5 @@
-export * from "./signup.dto";
+export * from "./signup.request.dto";
+export * from "./signup.response.dto";
 export * from "./login.dto";
 export * from "./logout.dto";
 export * from "./refresh-token.dto";
