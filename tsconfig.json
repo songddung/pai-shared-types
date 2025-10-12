@@ -2,8 +2,8 @@
   "compilerOptions": {
     /* === 공통 모듈 설정 === */
     "target": "ES2022",
-    "module": "ESNext", // ✅ 브라우저 + Node 호환
-    "moduleResolution": "Bundler", // ✅ 프론트엔드 번들러 호환성 (Vite, Next.js 등)
+    "module": "CommonJS", // ✅ NestJS 호환
+    "moduleResolution": "Node", // ✅ Node.js 호환
     "declaration": true, // ✅ .d.ts 타입 파일 생성
     "declarationMap": true,
     "sourceMap": true,
