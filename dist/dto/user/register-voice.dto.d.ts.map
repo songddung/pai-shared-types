@@ -1,1 +1,0 @@
-{"version":3,"file":"register-voice.dto.d.ts","sourceRoot":"","sources":["../../../src/dto/user/register-voice.dto.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,6BAA6B,CAAC;AAEhE,MAAM,WAAW,uBAAuB;IACtC,UAAU,EAAE,MAAM,CAAC;IACnB,UAAU,EAAE,IAAI,CAAC;CAClB;AAED,MAAM,WAAW,yBAAyB;IACxC,QAAQ,EAAE,MAAM,CAAC;CAClB;AAED,MAAM,MAAM,wBAAwB,GAAG,YAAY,CAAC,yBAAyB,CAAC,CAAC"}

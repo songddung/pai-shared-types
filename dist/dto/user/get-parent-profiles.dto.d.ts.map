@@ -1,1 +1,0 @@
-{"version":3,"file":"get-parent-profiles.dto.d.ts","sourceRoot":"","sources":["../../../src/dto/user/get-parent-profiles.dto.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,6BAA6B,CAAC;AAEhE,MAAM,WAAW,oBAAoB;IACnC,UAAU,EAAE,MAAM,CAAC;IACnB,IAAI,EAAE,MAAM,CAAC;IACb,eAAe,CAAC,EAAE,MAAM,CAAC;CAC1B;AAED,MAAM,MAAM,4BAA4B,GAAG,YAAY,CAAC,oBAAoB,EAAE,CAAC,CAAC"}
