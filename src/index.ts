@@ -1,4 +1,5 @@
-export * from "./dto";
-export * from "./types";
+export * from "./dto/user/signup.request.dto";
+export * from "./dto/user/signup.response.dto";
 
-export * as UserDTO from "./dto/user";
+export * from "./types/user.types";
+export * from "./types/common.response";
