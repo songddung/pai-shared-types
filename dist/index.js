@@ -18,6 +18,8 @@ __exportStar(require("./dto/user/signup.request.dto"), exports);
 __exportStar(require("./dto/user/signup.response.dto"), exports);
 __exportStar(require("./dto/user/login.request.dto"), exports);
 __exportStar(require("./dto/user/login.response.dto"), exports);
+__exportStar(require("./dto/quiz/create-quiz.request.dto"), exports);
+__exportStar(require("./dto/quiz/create-quiz.response.dto"), exports);
 __exportStar(require("./types/user.types"), exports);
 __exportStar(require("./types/common.response"), exports);
 //# sourceMappingURL=index.js.map
