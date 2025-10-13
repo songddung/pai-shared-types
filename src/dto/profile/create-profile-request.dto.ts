@@ -1,7 +1,7 @@
 import { ProfileType } from "enum/profile-type";
 
 export interface CreateProfileRequestDto {
-  profileTpye: ProfileType;
+  profileType: ProfileType;
   name: string;
   birthDate: string;
   gender: string;
