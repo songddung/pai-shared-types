@@ -7,4 +7,5 @@ export * from "./dto/quiz/create-quiz.response.dto";
 export * from "./dto/quiz/next-publish-date.dto";
 export * from "./types/user.types";
 export * from "./types/common.response";
+export * from "./enum/profile-type";
 //# sourceMappingURL=index.d.ts.map

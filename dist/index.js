@@ -23,4 +23,5 @@ __exportStar(require("./dto/quiz/create-quiz.response.dto"), exports);
 __exportStar(require("./dto/quiz/next-publish-date.dto"), exports);
 __exportStar(require("./types/user.types"), exports);
 __exportStar(require("./types/common.response"), exports);
+__exportStar(require("./enum/profile-type"), exports);
 //# sourceMappingURL=index.js.map

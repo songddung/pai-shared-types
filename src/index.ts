@@ -9,3 +9,4 @@ export * from "./dto/quiz/next-publish-date.dto";
 
 export * from "./types/user.types";
 export * from "./types/common.response";
+export * from "./enum/profile-type";

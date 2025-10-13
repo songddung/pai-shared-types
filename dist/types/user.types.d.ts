@@ -1,3 +1,4 @@
+import { ProfileType } from "enum/profile-type";
 export interface User {
     user_id: bigint;
     email: string;
@@ -7,7 +8,6 @@ export interface User {
     longitude: number;
     created_at: string;
 }
-export type ProfileType = "PARENT" | "CHILD";
 export interface Profile {
     profile_id: bigint;
     user_id: bigint;
