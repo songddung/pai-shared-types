@@ -15,7 +15,8 @@ export * from "./dto/quiz/next-publish-date.dto";
 export * from "./dto/quiz/parents-today.dto";
 export * from "./dto/quiz/parents-scheduled.dto";
 export * from "./dto/quiz/parents-completed.dto";
-export * from "./dto/quiz/parents-quiz-detail.dto";
+export * from "./dto/quiz/detail-quiz.dto";
+export * from "./dto/quiz/update-quiz.request.dto";
 
 export * from "./types/user.types";
 export * from "./types/common.response";
