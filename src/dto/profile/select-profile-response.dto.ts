@@ -4,7 +4,6 @@ export interface SelectProfileResponseData {
   userId: number;
   profileId: number;
   profileType: ProfileType;
-  name: string;
   accessToken: string;
   refreshToken: string;
 }
