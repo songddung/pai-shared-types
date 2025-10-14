@@ -20,6 +20,7 @@ __exportStar(require("./dto/user/login.request.dto"), exports);
 __exportStar(require("./dto/user/login.response.dto"), exports);
 __exportStar(require("./dto/profile/create-profile-request.dto"), exports);
 __exportStar(require("./dto/profile/create-profile-response.dto"), exports);
+__exportStar(require("./dto/profile/get-profile.response.dto"), exports);
 __exportStar(require("./dto/quiz/create-quiz.request.dto"), exports);
 __exportStar(require("./dto/quiz/create-quiz.response.dto"), exports);
 __exportStar(require("./dto/quiz/next-publish-date.dto"), exports);
