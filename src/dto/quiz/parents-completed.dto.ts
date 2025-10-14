@@ -6,9 +6,9 @@
 
 export interface ParentsCompletedQueryDto {
   /** 페이지 크기 (기본 20, 최대 50) */
-  limit?: number;
+  limit?: number | string;
   /** Base64로 인코딩된 "publishDate|quizId" */
-  cursor?: string;
+  cursor?: string | null;
 }
 
 export interface ParentsCompletedChildResultDto {
