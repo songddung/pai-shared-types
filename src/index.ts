@@ -24,6 +24,7 @@ export * from "./dto/quiz/update-quiz.request.dto";
 export * from "./dto/quiz/update-quiz.response.dto";
 export * from "./dto/quiz/delete-quiz.dto";
 export * from "./dto/quiz/children-today.dto";
+export * from "./dto/quiz/children-completed.dto";
 
 export * from "./types/user.types";
 export * from "./types/common.response";
