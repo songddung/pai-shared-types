@@ -37,6 +37,7 @@ __exportStar(require("./dto/quiz/detail-quiz.dto"), exports);
 __exportStar(require("./dto/quiz/update-quiz.request.dto"), exports);
 __exportStar(require("./dto/quiz/update-quiz.response.dto"), exports);
 __exportStar(require("./dto/quiz/delete-quiz.dto"), exports);
+__exportStar(require("./dto/quiz/children-today.dto"), exports);
 __exportStar(require("./types/user.types"), exports);
 __exportStar(require("./types/common.response"), exports);
 __exportStar(require("./enum/profile-type"), exports);
