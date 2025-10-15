@@ -15,6 +15,8 @@ export * from "./dto/quiz/parents-scheduled.dto";
 export * from "./dto/quiz/parents-completed.dto";
 export * from "./dto/quiz/detail-quiz.dto";
 export * from "./dto/quiz/update-quiz.request.dto";
+export * from "./dto/quiz/update-quiz.response.dto";
+export * from "./dto/quiz/delete-quiz.dto";
 export * from "./types/user.types";
 export * from "./types/common.response";
 export * from "./enum/profile-type";
