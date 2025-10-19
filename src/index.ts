@@ -1,9 +1,11 @@
+// user
 export * from "./dto/user/signup.request.dto";
 export * from "./dto/user/signup.response.dto";
 export * from "./dto/user/login.request.dto";
 export * from "./dto/user/login.response.dto";
 export * from "./dto/user/refreshToken.response.dto";
 
+// profile
 export * from "./dto/profile/create-profile-request.dto";
 export * from "./dto/profile/create-profile-response.dto";
 export * from "./dto/profile/get-profile.response.dto";
@@ -14,6 +16,7 @@ export * from "./dto/profile/update-profile-response.dto";
 export * from "./dto/profile/delete-profile-request.dto";
 export * from "./dto/profile/delete-profile-response.dto";
 
+// quiz
 export * from "./dto/quiz/create-quiz.request.dto";
 export * from "./dto/quiz/create-quiz.response.dto";
 export * from "./dto/quiz/next-publish-date.dto";
@@ -29,6 +32,12 @@ export * from "./dto/quiz/children-completed.dto";
 export * from "./dto/quiz/answer-quiz.request.dto";
 export * from "./dto/quiz/answer-quiz.response.dto";
 
+// media
+export * from "@dto/media/upload-media-request.dto";
+export * from "@dto/media/upload-media-response.dto";
+
+// type & enum
 export * from "./types/user.types";
 export * from "./types/common.response";
 export * from "./enum/profile-type";
+export * from "./enum/owner-type";

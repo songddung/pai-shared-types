@@ -26,7 +26,10 @@ export * from "./dto/quiz/children-today.dto";
 export * from "./dto/quiz/children-completed.dto";
 export * from "./dto/quiz/answer-quiz.request.dto";
 export * from "./dto/quiz/answer-quiz.response.dto";
+export * from "@dto/media/upload-media-request.dto";
+export * from "@dto/media/upload-media-response.dto";
 export * from "./types/user.types";
 export * from "./types/common.response";
 export * from "./enum/profile-type";
+export * from "./enum/owner-type";
 //# sourceMappingURL=index.d.ts.map
