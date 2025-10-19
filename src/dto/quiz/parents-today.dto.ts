@@ -4,7 +4,7 @@
  */
 
 export interface ParentsTodayQueryDto {
-  limit?: string;
+  limit?: number;
   cursor?: string;
 }
 
