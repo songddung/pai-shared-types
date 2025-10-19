@@ -5,22 +5,15 @@
  */
 
 export interface ParentsQuizDetailPathParam {
-  /** Path parameter: /api/quiz/:quizId */
-  quizId: number | string; // 컨트롤러에서 number로 파싱
+  quizId: string; // 컨트롤러에서 number로 파싱
 }
 
 export interface ParentsQuizDetailResponseData {
-  quizId: number;
-
-  /** 수정폼 필드 */
-  question: string | null;
-  answer: string | null;
-  hint?: string | null;
-  reward?: string | null;
-
-  /** yyyy-MM-dd (Asia/Seoul 기준 의미의 date-only) */
+  quizId: string;
+  question: string;
+  answer: string;
+  hint: string | null;
+  reward: string | null;
   publishDate: string;
-
-  /** 현재 시점에 수정 가능 여부 (작성자 AND SCHEDULED) */
   isEditable: boolean;
 }

@@ -6,32 +6,23 @@
  */
 
 export interface ChildrenCompletedQueryDto {
-  /** 페이지 크기 (기본 20, 최대 50) */
-  limit?: number | string;
-  /** Base64로 인코딩된 "publishDate|quizId" (없으면 첫 페이지) */
-  cursor?: string | null;
+  limit?: number; // 페이지 크기(기본 20, 최대 50)
+  cursor?: string; // Base64로 인코딩된 "publishDate|quizId" (없으면 첫 페이지)
 }
 
 export interface ChildrenCompletedItemDto {
-  quizId: number;
-  /** yyyy-MM-dd (Asia/Seoul 기준) */
-  publishDate: string;
-
+  quizId: string;
+  publishDate: string; // yyyy-MM-dd (Asia/Seoul 기준)
   question: string;
-  answer: string;
-  /** 완료 목록이므로 항상 노출 가능 */
-  reward?: string;
-
-  /** 출제자 정보 */
-  authorParentProfileId: number;
+  answer: string; 
+  reward: string | null; // 완료 목록이므로 항상 노출 가능
+  authorParentProfileId: string;
   authorParentName: string;
-  authorParentAvatarMediaId: number | null;
+  authorParentAvatarMediaId: string | null;
 }
 
 export interface ChildrenCompletedResponseData {
-  /** 최신일 먼저 */
-  items: ChildrenCompletedItemDto[];
-  /** 다음 페이지 커서(Base64), 없으면 null */
-  nextCursor: string | null;
+  items: ChildrenCompletedItemDto[]; // 최신순
+  nextCursor: string | null; /** 다음 페이지 커서(Base64), 없으면 null */
   hasNext: boolean;
 }

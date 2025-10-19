@@ -1,7 +1,7 @@
 export interface CreateQuizRequestDto {
   question: string;
   answer: string;
-  hint?: string;
-  reward?: string;
+  hint?: string | null;
+  reward?: string | null;
   publishDate?: string;
 }

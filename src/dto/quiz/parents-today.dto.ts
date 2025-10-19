@@ -4,36 +4,31 @@
  */
 
 export interface ParentsTodayQueryDto {
-  /** 페이지 크기 (기본 20, 최대 50) */
-  limit?: number;
-  /** Base64로 인코딩된 마지막 quizId (예: "IjEyMyI=") */
+  limit?: string;
   cursor?: string;
 }
 
 export interface ParentsTodayChildStatusDto {
-  childProfileId: number;
+  childProfileId: string;
   childName: string;
-  childAvatarMediaId: number | null;
+  childAvatarMediaId: string | null;
   isSolved: boolean;
 }
 
 export interface ParentsTodayItemDto {
-  quizId: number;
+  quizId: string;
   question: string;
-  hint?: string;
   answer: string;
-  reward?: string;
-
-  authorParentProfileId: number;
+  hint: string | null;
+  reward: string | null;
+  authorParentProfileId: string;
   authorParentName: string;
-  authorParentAvatarMediaId: number | null;
-
+  authorParentAvatarMediaId: string | null;
   children: ParentsTodayChildStatusDto[];
 }
 
 export interface ParentsTodayResponseData {
   items: ParentsTodayItemDto[];
-  /** 다음 페이지 커서(Base64), 없으면 null */
   nextCursor: string | null;
   hasNext: boolean;
 }

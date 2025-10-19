@@ -5,34 +5,25 @@
  */
 
 export interface ParentsScheduledQueryDto {
-  /** 페이지 크기 (기본 20, 최대 50) */
-  limit?: number | string;
-  /** Base64로 인코딩된 "publishDate|quizId" */
-  cursor?: string | null;
+  limit?: number;
+  cursor?: string;
 }
 
 export interface ParentsScheduledItemDto {
-  quizId: number;
-  /** yyyy-MM-dd (예정일) */
+  quizId: string;
   publishDate: string;
-
   question: string;
   answer: string;
-  hint?: string;
-  reward?: string;
-
-  authorParentProfileId: number;
+  hint: string | null;
+  reward: string | null;
+  authorParentProfileId: string;
   authorParentName: string;
-  authorParentAvatarMediaId: number | null;
-
-  /** 작성자 본인 + 예정 상태면 true */
+  authorParentAvatarMediaId: string | null;
   isEditable: boolean;
 }
 
 export interface ParentsScheduledResponseData {
-  /** 가까운 날짜 순 */
   items: ParentsScheduledItemDto[];
-  /** 다음 페이지 커서(Base64), 없으면 null */
   nextCursor: string | null;
   hasNext: boolean;
 }

@@ -4,10 +4,8 @@
  * - 작성자 본인만 삭제 가능
  */
 export interface DeleteQuizPathParam {
-  quizId: number | string; // 컨트롤러에서 number로 파싱
+  quizId: string; // 컨트롤러에서 number로 파싱
 }
-
-/** 성공 시 최소 응답 데이터 */
 export interface DeleteQuizResponseData {
-  quizId: number;
+  quizId: string; // 성공 시 최소 응답 데이터 
 }
