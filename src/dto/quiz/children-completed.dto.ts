@@ -14,7 +14,6 @@ export interface ChildrenCompletedQueryDto {
 
 export interface ChildrenCompletedItemDto {
   quizId: number;
-  status: 'COMPLETED';
   /** yyyy-MM-dd (Asia/Seoul 기준) */
   publishDate: string;
 

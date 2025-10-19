@@ -12,7 +12,6 @@ export interface ChildrenTodayQueryDto {
 
 export interface ChildrenTodayItemDto {
   quizId: number;
-  status: 'TODAY';
   question: string;
   hint?: string;
   // 아이용 TODAY에서는 정답 미노출(정책 변경 시 추가 가능)

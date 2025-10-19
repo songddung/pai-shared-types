@@ -13,7 +13,6 @@ export interface ParentsScheduledQueryDto {
 
 export interface ParentsScheduledItemDto {
   quizId: number;
-  status: 'SCHEDULED';
   /** yyyy-MM-dd (예정일) */
   publishDate: string;
 
