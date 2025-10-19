@@ -18,6 +18,7 @@ __exportStar(require("./dto/user/signup.request.dto"), exports);
 __exportStar(require("./dto/user/signup.response.dto"), exports);
 __exportStar(require("./dto/user/login.request.dto"), exports);
 __exportStar(require("./dto/user/login.response.dto"), exports);
+__exportStar(require("./dto/user/refreshToken.response.dto"), exports);
 __exportStar(require("./dto/profile/create-profile-request.dto"), exports);
 __exportStar(require("./dto/profile/create-profile-response.dto"), exports);
 __exportStar(require("./dto/profile/get-profile.response.dto"), exports);
