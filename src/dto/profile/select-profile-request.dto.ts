@@ -1,4 +1,4 @@
 export interface SelectProfileRequestDto {
-  profileId: number;
+  profileId: string;
   pin?: string;
 }

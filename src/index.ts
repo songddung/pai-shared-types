@@ -35,6 +35,7 @@ export * from "./dto/quiz/answer-quiz.response.dto";
 // media
 export * from "./dto/media/upload-media-request.dto";
 export * from "./dto/media/upload-media-response.dto";
+export * from "./dto/media/get-media-response.dto";
 
 // type & enum
 export * from "./types/user.types";

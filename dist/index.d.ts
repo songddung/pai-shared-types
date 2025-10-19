@@ -28,6 +28,7 @@ export * from "./dto/quiz/answer-quiz.request.dto";
 export * from "./dto/quiz/answer-quiz.response.dto";
 export * from "./dto/media/upload-media-request.dto";
 export * from "./dto/media/upload-media-response.dto";
+export * from "./dto/media/get-media-response.dto";
 export * from "./types/user.types";
 export * from "./types/common.response";
 export * from "./enum/profile-type";

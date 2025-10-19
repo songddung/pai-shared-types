@@ -1,5 +1,5 @@
 export interface LoginResponseData {
-  userId: number;
+  userId: string;
   accessToken: string;
   refreshToken: string;
 }

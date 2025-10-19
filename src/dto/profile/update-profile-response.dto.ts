@@ -1,12 +1,12 @@
 import { ProfileType } from "../../enum/profile-type";
 
 export interface UpdateProfileResponseData {
-  profileId: number;
-  userId: number;
+  profileId: string;
+  userId: string;
   profileType: ProfileType;
   name: string;
   birthDate: string;
   gender: string;
-  avatarMediaId?: number;
-  voiceMediaId?: number;
+  avatarMediaId?: string;
+  voiceMediaId?: string;
 }

@@ -1,13 +1,13 @@
 import { ProfileType } from "../../enum/profile-type";
 
 export interface ProfileDto {
-  profileId: number;
+  profileId: string;
   profileType: ProfileType;
   name: string;
   birthDate: string;
   gender: string;
-  avatarMediaId?: number;
-  voiceMediaId?: number;
+  avatarMediaId?: string;
+  voiceMediaId?: string;
   createdAt: string;
 }
 

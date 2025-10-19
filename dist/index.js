@@ -48,6 +48,7 @@ __exportStar(require("./dto/quiz/answer-quiz.response.dto"), exports);
 // media
 __exportStar(require("./dto/media/upload-media-request.dto"), exports);
 __exportStar(require("./dto/media/upload-media-response.dto"), exports);
+__exportStar(require("./dto/media/get-media-response.dto"), exports);
 // type & enum
 __exportStar(require("./types/user.types"), exports);
 __exportStar(require("./types/common.response"), exports);

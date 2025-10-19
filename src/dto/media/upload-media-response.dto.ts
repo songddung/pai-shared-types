@@ -1,8 +1,8 @@
 export interface UploadMediaResponseData {
-  mediaId: bigint;
+  mediaId: string;
   cdnUrl: string;
   fileName: string;
   mimeType: string;
-  fileSize: bigint;
+  fileSize: string;
   createdAt: string;
 }

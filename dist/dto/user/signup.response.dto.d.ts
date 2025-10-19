@@ -1,5 +1,5 @@
 export interface SignupResponseData {
-    userId: number;
+    userId: string;
     accessToken: string;
     refreshToken: string;
 }
