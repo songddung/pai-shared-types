@@ -19,7 +19,6 @@ export interface ParentsTodayChildStatusDto {
 
 export interface ParentsTodayItemDto {
   quizId: number;
-  status: 'TODAY';
   question: string;
   hint?: string;
   answer: string;
