@@ -3,5 +3,5 @@ export interface CreateQuizRequestDto {
   answer: string;
   hint?: string | null;
   reward?: string | null;
-  publishDate?: string;
+  publishDate: string | null;
 }
