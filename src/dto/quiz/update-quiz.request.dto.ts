@@ -14,6 +14,6 @@ export interface UpdateQuizRequestDto {
   answer?: string; 
   hint?: string | null; 
   reward?: string | null;
-  publishDate?: string; // 출제될 날짜(옵션: 'yyyy-MM-dd') 
+  publishDate: string | null; // 출제될 날짜(옵션: 'yyyy-MM-dd') 
 }
 
