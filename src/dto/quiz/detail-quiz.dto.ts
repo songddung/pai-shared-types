@@ -5,11 +5,11 @@
  */
 
 export interface ParentsQuizDetailPathParam {
-  quizId: string; // 컨트롤러에서 number로 파싱
+  quizId: number; // 컨트롤러에서 number로 파싱
 }
 
 export interface ParentsQuizDetailResponseData {
-  quizId: string;
+  quizId: number;
   question: string;
   answer: string;
   hint: string | null;

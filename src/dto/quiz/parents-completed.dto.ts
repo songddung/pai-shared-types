@@ -10,7 +10,7 @@ export interface ParentsCompletedQueryDto {
 }
 
 export interface ParentsCompletedChildResultDto {
-  childProfileId: string;
+  childProfileId: number;
   childName: string;
   childAvatarMediaId: string | null;
   isSolved: boolean;
@@ -18,14 +18,14 @@ export interface ParentsCompletedChildResultDto {
 }
 
 export interface ParentsCompletedItemDto {
-  quizId: string;
+  quizId: number;
   publishDate: string;
   question: string;
   answer: string;
   reward: string | null;
-  authorParentProfileId: string;
+  authorParentProfileId: number;
   authorParentName: string;
-  authorParentAvatarMediaId: string | null;
+  authorParentAvatarMediaId: number | null;
   children: ParentsCompletedChildResultDto[];
 }
 

@@ -9,13 +9,13 @@ export interface ChildrenTodayQueryDto {
 }
 
 export interface ChildrenTodayItemDto {
-  quizId: string;
+  quizId: number;
   question: string;
   hint: string | null;
   reward: string | null;
-  authorParentProfileId: string;
+  authorParentProfileId: number;
   authorParentName: string;
-  authorParentAvatarMediaId: string | null; // 항상 키는 주되, 아바타 없으면 null을 보내 일관된 키셋 유지
+  authorParentAvatarMediaId: number | null; // 항상 키는 주되, 아바타 없으면 null을 보내 일관된 키셋 유지
   isSolved: boolean; // 내가 풀었는지
 }
 
