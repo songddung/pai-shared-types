@@ -1,4 +1,4 @@
 export interface DeleteProfileResponseData {
-  profileId: string;
+  profileId: number;
   deletedAt: string;
 }

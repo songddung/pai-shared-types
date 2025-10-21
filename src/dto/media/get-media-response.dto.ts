@@ -1,9 +1,9 @@
 import { OwnerType } from "enum/owner-type";
 
 export interface GetMediaResponseData {
-  mediaId: string;
+  mediaId: number;
   ownerType: OwnerType;
-  ownerId: string;
+  ownerId: number;
   cdnUrl: string;
   fileName: string;
   mimeType: string;

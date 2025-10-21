@@ -1,8 +1,8 @@
 import { ProfileType } from "enum/profile-type";
 
 export interface CreateProfileResponseData {
-  profileId: string;
-  userId: string;
+  profileId: number;
+  userId: number;
   profileType: ProfileType;
   name: string;
   accessToken: string;

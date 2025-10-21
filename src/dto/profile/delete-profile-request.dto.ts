@@ -1,3 +1,3 @@
 export interface DeleteProfileRequestDto {
-  profileId: string;
+  profileId: number;
 }

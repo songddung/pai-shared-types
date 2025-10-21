@@ -5,7 +5,7 @@ export interface CreateProfileRequestDto {
   name: string;
   birthDate: string;
   gender: string;
-  avatarMediaId?: string;
+  avatarMediaId?: number;
   pin?: string;
-  voiceMediaId?: string;
+  voiceMediaId?: number;
 }
