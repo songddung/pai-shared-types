@@ -23,6 +23,7 @@ __exportStar(require("./dto/user/refreshToken.response.dto"), exports);
 // profile
 __exportStar(require("./dto/profile/create-profile-request.dto"), exports);
 __exportStar(require("./dto/profile/create-profile-response.dto"), exports);
+__exportStar(require("./dto/profile/get-profile.request.dto"), exports);
 __exportStar(require("./dto/profile/get-profile.response.dto"), exports);
 __exportStar(require("./dto/profile/select-profile-request.dto"), exports);
 __exportStar(require("./dto/profile/select-profile-response.dto"), exports);

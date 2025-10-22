@@ -10,15 +10,15 @@ export interface ParentsScheduledQueryDto {
 }
 
 export interface ParentsScheduledItemDto {
-  quizId: string;
+  quizId: number;
   publishDate: string;
   question: string;
   answer: string;
   hint: string | null;
   reward: string | null;
-  authorParentProfileId: string;
+  authorParentProfileId: number;
   authorParentName: string;
-  authorParentAvatarMediaId: string | null;
+  authorParentAvatarMediaId: number | null;
   isEditable: boolean;
 }
 

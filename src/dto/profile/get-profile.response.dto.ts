@@ -11,10 +11,6 @@ export interface ProfileDto {
   createdAt: string;
 }
 
-export interface GetParentProfilesResponseData {
-  profiles: ProfileDto[];
-}
-
-export interface GetChildProfilesResponseData {
+export interface GetProfilesResponseData {
   profiles: ProfileDto[];
 }
