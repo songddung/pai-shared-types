@@ -6,7 +6,7 @@
  * - publishDate 는 'yyyy-MM-dd' 형식
  */
 export interface UpdateQuizPathParam {
-  quizId: number; 
+  quizId: string; 
 }
 
 export interface UpdateQuizRequestDto {

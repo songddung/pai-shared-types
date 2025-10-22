@@ -9,21 +9,21 @@ export interface ParentsTodayQueryDto {
 }
 
 export interface ParentsTodayChildStatusDto {
-  childProfileId: number;
+  childProfileId: string;
   childName: string;
-  childAvatarMediaId: number | null;
+  childAvatarMediaId: string | null;
   isSolved: boolean;
 }
 
 export interface ParentsTodayItemDto {
-  quizId: number;
+  quizId: string;
   question: string;
   answer: string;
   hint: string | null;
   reward: string | null;
-  authorParentProfileId: number;
+  authorParentProfileId: string;
   authorParentName: string;
-  authorParentAvatarMediaId: number | null;
+  authorParentAvatarMediaId: string | null;
   children: ParentsTodayChildStatusDto[];
 }
 

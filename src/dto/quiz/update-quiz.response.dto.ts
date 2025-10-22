@@ -3,7 +3,7 @@
  * - 수정된 퀴즈 정보를 반환
  */
 export interface UpdateQuizResponseData {
-  quizId: number;
+  quizId: string;
   question: string;
   answer: string;
   hint: string | null;

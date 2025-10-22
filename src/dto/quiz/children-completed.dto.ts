@@ -11,14 +11,14 @@ export interface ChildrenCompletedQueryDto {
 }
 
 export interface ChildrenCompletedItemDto {
-  quizId: number;
+  quizId: string;
   publishDate: string; // yyyy-MM-dd (Asia/Seoul 기준)
   question: string;
   answer: string; 
   reward: string | null; // 완료 목록이므로 항상 노출 가능
-  authorParentProfileId: number;
+  authorParentProfileId: string;
   authorParentName: string;
-  authorParentAvatarMediaId: number | null;
+  authorParentAvatarMediaId: string | null;
 }
 
 export interface ChildrenCompletedResponseData {

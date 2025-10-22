@@ -1,5 +1,5 @@
 export interface CreateQuizResponseData {
-  quizId: number;
+  quizId: string;
   question: string;
   answer: string;
   hint: string | null;
