@@ -15,22 +15,15 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 // user
-__exportStar(require("./dto/user/signup.request.dto"), exports);
-__exportStar(require("./dto/user/signup.response.dto"), exports);
-__exportStar(require("./dto/user/login.request.dto"), exports);
-__exportStar(require("./dto/user/login.response.dto"), exports);
-__exportStar(require("./dto/user/refreshToken.response.dto"), exports);
+__exportStar(require("./dto/user/signup.dto"), exports);
+__exportStar(require("./dto/user/login.dto"), exports);
+__exportStar(require("./dto/user/refreshToken.dto"), exports);
 // profile
-__exportStar(require("./dto/profile/create-profile-request.dto"), exports);
-__exportStar(require("./dto/profile/create-profile-response.dto"), exports);
-__exportStar(require("./dto/profile/get-profile.request.dto"), exports);
-__exportStar(require("./dto/profile/get-profile.response.dto"), exports);
-__exportStar(require("./dto/profile/select-profile-request.dto"), exports);
-__exportStar(require("./dto/profile/select-profile-response.dto"), exports);
-__exportStar(require("./dto/profile/update-profile-request.dto"), exports);
-__exportStar(require("./dto/profile/update-profile-response.dto"), exports);
-__exportStar(require("./dto/profile/delete-profile-request.dto"), exports);
-__exportStar(require("./dto/profile/delete-profile-response.dto"), exports);
+__exportStar(require("./dto/profile/create-profile.dto"), exports);
+__exportStar(require("./dto/profile/get-profile.dto"), exports);
+__exportStar(require("./dto/profile/select-profile.dto"), exports);
+__exportStar(require("./dto/profile/update-profile.dto"), exports);
+__exportStar(require("./dto/profile/delete-profile.dto"), exports);
 // quiz
 __exportStar(require("./dto/quiz/parents-create-quiz.dto"), exports);
 __exportStar(require("./dto/quiz/next-publish-date.dto"), exports);
@@ -44,10 +37,8 @@ __exportStar(require("./dto/quiz/children-today-quiz.dto"), exports);
 __exportStar(require("./dto/quiz/children-completed-quiz.dto"), exports);
 __exportStar(require("./dto/quiz/children-answer-quiz.dto"), exports);
 // media
-__exportStar(require("./dto/media/upload-media-request.dto"), exports);
-__exportStar(require("./dto/media/upload-media-response.dto"), exports);
-__exportStar(require("./dto/media/get-media-response.dto"), exports);
-__exportStar(require("./dto/media/get-media-request.dto"), exports);
+__exportStar(require("./dto/media/upload-media.dto"), exports);
+__exportStar(require("./dto/media/get-media.dto"), exports);
 // type & enum
 __exportStar(require("./types/user.types"), exports);
 __exportStar(require("./types/common.response"), exports);

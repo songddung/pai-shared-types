@@ -1,21 +1,14 @@
 // user
-export * from "./dto/user/signup.request.dto";
-export * from "./dto/user/signup.response.dto";
-export * from "./dto/user/login.request.dto";
-export * from "./dto/user/login.response.dto";
-export * from "./dto/user/refreshToken.response.dto";
+export * from "./dto/user/signup.dto";
+export * from "./dto/user/login.dto";
+export * from "./dto/user/refreshToken.dto";
 
 // profile
-export * from "./dto/profile/create-profile-request.dto";
-export * from "./dto/profile/create-profile-response.dto";
-export * from "./dto/profile/get-profile.request.dto";
-export * from "./dto/profile/get-profile.response.dto";
-export * from "./dto/profile/select-profile-request.dto";
-export * from "./dto/profile/select-profile-response.dto";
-export * from "./dto/profile/update-profile-request.dto";
-export * from "./dto/profile/update-profile-response.dto";
-export * from "./dto/profile/delete-profile-request.dto";
-export * from "./dto/profile/delete-profile-response.dto";
+export * from "./dto/profile/create-profile.dto";
+export * from "./dto/profile/get-profile.dto";
+export * from "./dto/profile/select-profile.dto";
+export * from "./dto/profile/update-profile.dto";
+export * from "./dto/profile/delete-profile.dto";
 
 // quiz
 export * from "./dto/quiz/parents-create-quiz.dto";
@@ -31,10 +24,8 @@ export * from "./dto/quiz/children-completed-quiz.dto";
 export * from "./dto/quiz/children-answer-quiz.dto";
 
 // media
-export * from "./dto/media/upload-media-request.dto";
-export * from "./dto/media/upload-media-response.dto";
-export * from "./dto/media/get-media-response.dto";
-export * from "./dto/media/get-media-request.dto";
+export * from "./dto/media/upload-media.dto";
+export * from "./dto/media/get-media.dto";
 
 // type & enum
 export * from "./types/user.types";

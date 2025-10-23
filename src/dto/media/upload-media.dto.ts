@@ -1,12 +1,15 @@
 import { OwnerType } from "enum/owner-type";
 
-export interface GetMediaResponseData {
-  mediaId: number;
+export interface UploadMediaRequestDto {
   ownerType: OwnerType;
-  ownerId: number;
+  ownerId: string;
+}
+
+export interface UploadMediaResponseData {
+  mediaId: string;
   cdnUrl: string;
   fileName: string;
   mimeType: string;
-  s3Key: string;
+  fileSize: number;
   createdAt: string;
 }
