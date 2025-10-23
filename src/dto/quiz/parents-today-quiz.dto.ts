@@ -1,29 +1,30 @@
 /**
  * GET /api/quiz/parents/today
- * - cursor: Base64("quizId")
  */
 
-export interface ParentsTodayQueryDto {
+// ----------------------------------------------------Request
+export interface ParentsTodayQueryParam {
   limit?: number;
-  cursor?: string;
+  cursor?: string; // Base64("quizId")
 }
 
+// ----------------------------------------------------Response
 export interface ParentsTodayChildStatusDto {
-  childProfileId: string;
+  childProfileId: number;  // Int
   childName: string;
-  childAvatarMediaId: string | null;
+  childAvatarMediaId: string | null;  // BigInt
   isSolved: boolean;
 }
 
 export interface ParentsTodayItemDto {
-  quizId: string;
+  quizId: string;  // BigInt
   question: string;
   answer: string;
   hint: string | null;
   reward: string | null;
-  authorParentProfileId: string;
+  authorParentProfileId: number;  // Int
   authorParentName: string;
-  authorParentAvatarMediaId: string | null;
+  authorParentAvatarMediaId: string | null;  // BigInt
   children: ParentsTodayChildStatusDto[];
 }
 

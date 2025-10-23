@@ -1,31 +1,31 @@
 /**
  * GET /api/quiz/parents/completed
- * - 정렬: publishDate 내림차순, 같은 날짜는 quizId 내림차순
- * - cursor: Base64("publishDate|quizId")  예: "IjIwMjUtMTAtMDN8MTAxIg=="
  */
 
-export interface ParentsCompletedQueryDto {
+// ----------------------------------------------------Request
+export interface ParentsCompletedQueryParam {
   limit?: number; // 페이지 크기(기본 20, 최대 50)
-  cursor?: string; // Base64
+  cursor?: string; // Base64("publishDate|quizId")  예: "IjIwMjUtMTAtMDN8MTAxIg=="
 }
 
+// ----------------------------------------------------Response
 export interface ParentsCompletedChildResultDto {
-  childProfileId: string;
+  childProfileId: number;  // Int
   childName: string;
-  childAvatarMediaId: string | null;
+  childAvatarMediaId: string | null;  // BigInt
   isSolved: boolean;
   rewardGranted: boolean;
 }
 
 export interface ParentsCompletedItemDto {
-  quizId: string;
+  quizId: string;  // BigInt
   publishDate: string;
   question: string;
   answer: string;
   reward: string | null;
-  authorParentProfileId: string;
+  authorParentProfileId: number;  // Int
   authorParentName: string;
-  authorParentAvatarMediaId: string | null;
+  authorParentAvatarMediaId: string | null;  // BigInt
   children: ParentsCompletedChildResultDto[];
 }
 
