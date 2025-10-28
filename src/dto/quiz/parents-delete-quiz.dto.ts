@@ -3,9 +3,13 @@
  * - 예정(SCHEDULED) 상태에서만 삭제 가능
  * - 작성자 본인만 삭제 가능
  */
+
+// ----------------------------------------------------Request
 export interface DeleteQuizPathParam {
-  quizId: number; // 컨트롤러에서 number로 파싱
+  quizId: string; // BigInt
 }
+
+// ----------------------------------------------------Response
 export interface DeleteQuizResponseData {
-  quizId: number; // 성공 시 최소 응답 데이터 
+  quizId: string; // BigInt
 }

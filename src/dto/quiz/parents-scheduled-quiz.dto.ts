@@ -1,24 +1,24 @@
 /**
  * GET /api/quiz/parents/scheduled
- * - 정렬: publishDate 오름차순, 같은 날짜는 quizId 오름차순
- * - cursor: Base64("publishDate|quizId")  예: "IjIwMjUtMTAtMDd8MTIzIg=="
  */
 
-export interface ParentsScheduledQueryDto {
+// ----------------------------------------------------Request
+export interface ParentsScheduledQueryParam {
   limit?: number;
-  cursor?: string;
+  cursor?: string; // Base64("publishDate|quizId")  예: "IjIwMjUtMTAtMDd8MTIzIg=="
 }
 
+// ----------------------------------------------------Response
 export interface ParentsScheduledItemDto {
-  quizId: number;
+  quizId: string;  // BigInt
   publishDate: string;
   question: string;
   answer: string;
   hint: string | null;
   reward: string | null;
-  authorParentProfileId: number;
+  authorParentProfileId: number;  // Int
   authorParentName: string;
-  authorParentAvatarMediaId: number | null;
+  authorParentAvatarMediaId: string | null;  // BigInt
   isEditable: boolean;
 }
 
