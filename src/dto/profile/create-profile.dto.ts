@@ -15,7 +15,7 @@ export interface CreateProfileResponseData {
   userId: number;
   profileType: ProfileType;
   name: string;
-  birthData: string;
+  birthDate: string;
   gender: string;
   avatarMediaId?: string;
 }
