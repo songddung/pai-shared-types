@@ -10,6 +10,6 @@ export interface UploadMediaResponseData {
   cdnUrl: string;
   fileName: string;
   mimeType: string;
-  fileSize: number;
+  fileSize: String;
   createdAt: string;
 }
