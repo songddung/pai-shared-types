@@ -1,5 +1,5 @@
 export interface CreateAnalyticsRequestDto {
-  profileId: string;
+  childId: string;
   conversationId: string;
   extractedKeywords: string[];
 }
