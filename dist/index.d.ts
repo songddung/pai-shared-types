@@ -17,6 +17,8 @@ export * from "./dto/quiz/parents-delete-quiz.dto";
 export * from "./dto/quiz/children-today-quiz.dto";
 export * from "./dto/quiz/children-completed-quiz.dto";
 export * from "./dto/quiz/children-answer-quiz.dto";
+export * from "./dto/conversation/end-coversation.dto";
+export * from "./dto/conversation/record-conversation.dto";
 export * from "./dto/media/upload-media.dto";
 export * from "./dto/media/get-media.dto";
 export * from "./dto/insight/create-analytics.dto";

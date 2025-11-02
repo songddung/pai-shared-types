@@ -36,6 +36,9 @@ __exportStar(require("./dto/quiz/parents-delete-quiz.dto"), exports);
 __exportStar(require("./dto/quiz/children-today-quiz.dto"), exports);
 __exportStar(require("./dto/quiz/children-completed-quiz.dto"), exports);
 __exportStar(require("./dto/quiz/children-answer-quiz.dto"), exports);
+// conversation
+__exportStar(require("./dto/conversation/end-coversation.dto"), exports);
+__exportStar(require("./dto/conversation/record-conversation.dto"), exports);
 // media
 __exportStar(require("./dto/media/upload-media.dto"), exports);
 __exportStar(require("./dto/media/get-media.dto"), exports);
