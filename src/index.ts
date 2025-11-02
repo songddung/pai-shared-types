@@ -29,6 +29,7 @@ export * from "./dto/media/get-media.dto";
 
 // insight
 export * from "./dto/insight/create-analytics.dto";
+export * from "./dto/insight/get-top-interests.dto";
 
 // type & enum
 export * from "./types/user.types";

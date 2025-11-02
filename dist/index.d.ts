@@ -20,6 +20,7 @@ export * from "./dto/quiz/children-answer-quiz.dto";
 export * from "./dto/media/upload-media.dto";
 export * from "./dto/media/get-media.dto";
 export * from "./dto/insight/create-analytics.dto";
+export * from "./dto/insight/get-top-interests.dto";
 export * from "./types/user.types";
 export * from "./types/common.response";
 export * from "./enum/profile-type";
