@@ -1,5 +1,6 @@
 export interface CreateAnalyticsRequestDto {
   profileId: string;
+  conversationId: string;
   extractedKeywords: string[];
   categoryScores: { [category: string]: number };
 }
