@@ -39,6 +39,8 @@ __exportStar(require("./dto/quiz/children-answer-quiz.dto"), exports);
 // media
 __exportStar(require("./dto/media/upload-media.dto"), exports);
 __exportStar(require("./dto/media/get-media.dto"), exports);
+// insight
+__exportStar(require("./dto/insight/create-analytics.dto"), exports);
 // type & enum
 __exportStar(require("./types/user.types"), exports);
 __exportStar(require("./types/common.response"), exports);

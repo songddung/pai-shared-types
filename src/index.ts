@@ -27,6 +27,9 @@ export * from "./dto/quiz/children-answer-quiz.dto";
 export * from "./dto/media/upload-media.dto";
 export * from "./dto/media/get-media.dto";
 
+// insight
+export * from "./dto/insight/create-analytics.dto";
+
 // type & enum
 export * from "./types/user.types";
 export * from "./types/common.response";
