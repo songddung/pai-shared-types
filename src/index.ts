@@ -35,6 +35,7 @@ export * from "./dto/media/get-media.dto";
 export * from "./dto/insight/create-analytics.dto";
 export * from "./dto/insight/get-top-interests.dto";
 export * from "./dto/insight/prune-old-interests.dto";
+export * from "./dto/insight/get-recommendations.dto";
 
 // type & enum
 export * from "./types/user.types";

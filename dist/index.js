@@ -46,6 +46,7 @@ __exportStar(require("./dto/media/get-media.dto"), exports);
 __exportStar(require("./dto/insight/create-analytics.dto"), exports);
 __exportStar(require("./dto/insight/get-top-interests.dto"), exports);
 __exportStar(require("./dto/insight/prune-old-interests.dto"), exports);
+__exportStar(require("./dto/insight/get-recommendations.dto"), exports);
 // type & enum
 __exportStar(require("./types/user.types"), exports);
 __exportStar(require("./types/common.response"), exports);
