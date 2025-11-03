@@ -26,6 +26,8 @@ export * from "./dto/quiz/children-answer-quiz.dto";
 // conversation
 export * from "./dto/conversation/end-coversation.dto";
 export * from "./dto/conversation/record-conversation.dto";
+export * from "./dto/conversation/get-conversations.dto";
+export * from "./dto/conversation/get-conversation-detail.dto";
 
 // media
 export * from "./dto/media/upload-media.dto";
