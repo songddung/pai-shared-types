@@ -5,5 +5,5 @@ export interface InterestItem {
 }
 
 export interface GetTopInterestsResponseData {
-  interests: InterestItem[];
+  interests: InterestItem;
 }
