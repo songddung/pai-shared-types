@@ -5,6 +5,5 @@ export interface CreateAnalyticsRequestDto {
 }
 
 export interface CreateAnalyticsResponseData {
-  updatedKeywords: string[];
-  createdKeywords: string[];
+  title: string;
 }
