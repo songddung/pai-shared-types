@@ -19,6 +19,7 @@ export * from "./dto/quiz/parents-completed-quiz.dto";
 export * from "./dto/quiz/parents-detail-quiz.dto";
 export * from "./dto/quiz/parents-update-quiz.dto";
 export * from "./dto/quiz/parents-delete-quiz.dto";
+export * from "./dto/quiz/parents-grant-reward.dto";
 export * from "./dto/quiz/children-today-quiz.dto";
 export * from "./dto/quiz/children-completed-quiz.dto";
 export * from "./dto/quiz/children-answer-quiz.dto";
@@ -28,6 +29,7 @@ export * from "./dto/conversation/end-coversation.dto";
 export * from "./dto/conversation/record-conversation.dto";
 export * from "./dto/conversation/get-conversations.dto";
 export * from "./dto/conversation/get-conversation-detail.dto";
+export * from "./dto/conversation/get-conversations-calendar.dto"
 
 // media
 export * from "./dto/media/upload-media.dto";
