@@ -29,7 +29,7 @@ export * from "./dto/conversation/end-coversation.dto";
 export * from "./dto/conversation/record-conversation.dto";
 export * from "./dto/conversation/get-conversations.dto";
 export * from "./dto/conversation/get-conversation-detail.dto";
-export * from "./dto/conversation/get-conversations-calendar.dto"
+export * from "./dto/conversation/get-conversations-calendar.dto";
 
 // media
 export * from "./dto/media/upload-media.dto";
@@ -45,4 +45,3 @@ export * from "./dto/insight/get-recommendations.dto";
 export * from "./types/user.types";
 export * from "./types/common.response";
 export * from "./enum/profile-type";
-export * from "./enum/owner-type";

@@ -32,5 +32,4 @@ export * from "./dto/insight/get-recommendations.dto";
 export * from "./types/user.types";
 export * from "./types/common.response";
 export * from "./enum/profile-type";
-export * from "./enum/owner-type";
 //# sourceMappingURL=index.d.ts.map

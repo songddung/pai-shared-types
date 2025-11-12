@@ -55,5 +55,4 @@ __exportStar(require("./dto/insight/get-recommendations.dto"), exports);
 __exportStar(require("./types/user.types"), exports);
 __exportStar(require("./types/common.response"), exports);
 __exportStar(require("./enum/profile-type"), exports);
-__exportStar(require("./enum/owner-type"), exports);
 //# sourceMappingURL=index.js.map
