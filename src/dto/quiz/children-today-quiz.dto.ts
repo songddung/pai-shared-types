@@ -18,6 +18,7 @@ export interface ChildrenTodayItemDto {
   authorParentName: string;
   authorParentAvatarMediaId: string | null;  // BigInt
   isSolved: boolean; // 아이 본인이 풀었는지
+  answer?: string; // isSolved가 true일 때만 포함되는 정답
 }
 
 export interface ChildrenTodayResponseData {
