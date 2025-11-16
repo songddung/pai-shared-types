@@ -1,1 +1,1 @@
-export type ProfileType = 'parent' | 'child';
+export type ProfileType = "parent" | "child" | "all";
