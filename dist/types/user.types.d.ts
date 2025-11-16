@@ -19,5 +19,6 @@ export interface Profile {
     pinHash?: string;
     voiceMediaId?: bigint;
     createdAt: string;
+    avatarUrl: string;
 }
 //# sourceMappingURL=user.types.d.ts.map
