@@ -6,6 +6,7 @@ export interface GetProfileRequestDto {
 
 export interface ProfileDto {
   profileId: string;
+  userId: string;
   profileType: ProfileType;
   name: string;
   birthDate: string;
