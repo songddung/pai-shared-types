@@ -18,3 +18,7 @@ export interface ProfileDto {
 export interface GetProfilesResponseData {
   profiles: ProfileDto[];
 }
+
+export interface GetProfileResponseData {
+  profile: ProfileDto;
+}
