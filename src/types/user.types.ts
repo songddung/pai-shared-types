@@ -1,24 +1,24 @@
 import { ProfileType } from "enum/profile-type";
 
 export interface User {
-  user_id: bigint;
+  userId: number;
   email: string;
-  password_hash: string;
+  passwordHash: string;
   address: string;
   latitude: number;
   longitude: number;
-  created_at: string;
+  createdAt: string;
 }
 
 export interface Profile {
-  profile_id: bigint;
-  user_id: bigint;
-  profile_type: ProfileType;
+  profileId: number;
+  userId: number;
+  profileType: ProfileType;
   name: string;
-  birth_date?: string;
+  birthDate?: string;
   gender?: string;
-  avatar_media_id?: bigint;
-  pin_hash?: string;
-  voice_media_id?: string;
-  created_at: string;
+  avatarMediaId?: bigint;
+  pinHash?: string;
+  voiceMediaId?: bigint;
+  createdAt: string;
 }
