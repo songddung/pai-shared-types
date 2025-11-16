@@ -1,5 +1,5 @@
 export interface GetMediaRequestDto {
-  mediaId: String;
+  mediaIds: String;
 }
 
 export interface GetMediaResponseData {
