@@ -9,6 +9,7 @@ export * from "./dto/profile/get-profile.dto";
 export * from "./dto/profile/select-profile.dto";
 export * from "./dto/profile/update-profile.dto";
 export * from "./dto/profile/delete-profile.dto";
+export * from "./dto/profile/create-voice.dto";
 
 // quiz
 export * from "./dto/quiz/parents-create-quiz.dto";

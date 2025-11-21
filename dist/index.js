@@ -24,6 +24,7 @@ __exportStar(require("./dto/profile/get-profile.dto"), exports);
 __exportStar(require("./dto/profile/select-profile.dto"), exports);
 __exportStar(require("./dto/profile/update-profile.dto"), exports);
 __exportStar(require("./dto/profile/delete-profile.dto"), exports);
+__exportStar(require("./dto/profile/create-voice.dto"), exports);
 // quiz
 __exportStar(require("./dto/quiz/parents-create-quiz.dto"), exports);
 __exportStar(require("./dto/quiz/next-publish-date.dto"), exports);
