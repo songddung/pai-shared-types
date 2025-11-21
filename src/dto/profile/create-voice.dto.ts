@@ -1,5 +1,4 @@
 export interface CreateVoiceRequestDto {
-  profileId: string;
   name: string;
 }
 
