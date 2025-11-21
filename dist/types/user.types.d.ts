@@ -17,7 +17,7 @@ export interface Profile {
     gender?: string;
     avatarMediaId?: bigint;
     pinHash?: string;
-    voiceMediaId?: bigint;
+    voiceMediaId?: string;
     createdAt: string;
     avatarUrl?: string;
 }
