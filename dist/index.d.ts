@@ -7,6 +7,7 @@ export * from "./dto/profile/select-profile.dto";
 export * from "./dto/profile/update-profile.dto";
 export * from "./dto/profile/delete-profile.dto";
 export * from "./dto/profile/create-voice.dto";
+export * from "./dto/profile/synthesize-voice.dto";
 export * from "./dto/quiz/parents-create-quiz.dto";
 export * from "./dto/quiz/next-publish-date.dto";
 export * from "./dto/quiz/parents-today-quiz.dto";
