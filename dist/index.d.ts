@@ -27,6 +27,7 @@ export * from "./dto/conversation/get-conversation-detail.dto";
 export * from "./dto/conversation/get-conversations-calendar.dto";
 export * from "./dto/media/upload-media.dto";
 export * from "./dto/media/get-media.dto";
+export * from "./dto/media/batch-delete.dto";
 export * from "./dto/insight/create-analytics.dto";
 export * from "./dto/insight/get-top-interests.dto";
 export * from "./dto/insight/prune-old-interests.dto";

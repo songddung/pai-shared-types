@@ -36,6 +36,7 @@ export * from "./dto/conversation/get-conversations-calendar.dto";
 // media
 export * from "./dto/media/upload-media.dto";
 export * from "./dto/media/get-media.dto";
+export * from "./dto/media/batch-delete.dto";
 
 // insight
 export * from "./dto/insight/create-analytics.dto";

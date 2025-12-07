@@ -48,6 +48,7 @@ __exportStar(require("./dto/conversation/get-conversations-calendar.dto"), expor
 // media
 __exportStar(require("./dto/media/upload-media.dto"), exports);
 __exportStar(require("./dto/media/get-media.dto"), exports);
+__exportStar(require("./dto/media/batch-delete.dto"), exports);
 // insight
 __exportStar(require("./dto/insight/create-analytics.dto"), exports);
 __exportStar(require("./dto/insight/get-top-interests.dto"), exports);
