@@ -12,7 +12,7 @@
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run build",
     "test": "echo \"No tests for shared types\"",
-    "publish:patch": "npm version patch && npm publish --access public",
+    "publish:patch": "npm version patch && npm publish --access public && git push",
     "publish:minor": "npm version minor && npm publish --access public",
     "publish:major": "npm version major && npm publish --access public"
   },
