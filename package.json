@@ -11,7 +11,7 @@
     "build": "tsc",
     "clean": "rm -rf dist",
     "test": "echo \"No tests for shared types\"",
-    "publish:patch": "npm version patch && npm publish --access public && git push",
+    "publish:patch": "npm version patch && npm publish --access public",
     "publish:minor": "npm version minor && npm publish --access public",
     "publish:major": "npm version major && npm publish --access public"
   },
