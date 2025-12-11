@@ -2,6 +2,7 @@ import { ProfileType } from "enum/profile-type";
 
 export interface SelectProfileRequestDto {
   profileId: string;
+  deviceId: string;
   pin?: string | null;
 }
 
